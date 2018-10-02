@@ -1,0 +1,21 @@
+p{
+	font-family: Arial;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 30px;
+	text-indent: 30px;
+}
+h1{
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 20px;
+}
+table{
+	width: 400px;
+	height: 200px;
+	vertical-align: top;
+}
+th{
+	vertical-align: middle;
+}

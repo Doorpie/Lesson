@@ -1,0 +1,29 @@
+p{
+	width: 400px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: justify;
+	text-indent: 40px;
+	font-family: Arial;
+
+}
+
+h3{
+	width: 400px;
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+}
+h4{
+	width: 400px;
+	text-align: center;
+	color: blue;
+	font-size: 15px;
+}
+
+b{
+	color: red;
+}
+i{
+	color: blue;
+}
