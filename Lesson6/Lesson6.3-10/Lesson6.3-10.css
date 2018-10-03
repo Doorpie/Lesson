@@ -1,0 +1,74 @@
+.a{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	width: 200px; 
+	height: 200px;
+}
+.b{
+	border-style: dotted;
+	border-color: blue;
+	border-width: 1px;
+	width: 500px;
+	height: 200px; 
+}
+.c{
+	border-style: dashed;
+	border-color: green;
+	border-width: 1px;
+	width: 100px;
+	height: 100px;
+}
+.d{
+	width: 500px;
+	height: 200px;
+	border-radius: 20px;
+	border-left: black solid 1px;
+	border-top: blue solid 1px;
+	border-right: green solid 1px;
+	border-bottom: red solid 1px;
+}
+.e{
+	width: 300px;
+	height:300px;
+	border: dashed green 1px;
+	border-radius: 10px 30px;
+}
+.f{
+	width: 300px;
+	height:300px;
+	border: dotted green 1px;
+	border-radius: 10px 30px 50px 70px;
+}
+.g{
+	width:100px;
+	height:100px;
+	border: solid red 1px;
+	border-radius:100px;
+}
+
+a:link.c1, a:visited.c1{
+	color:blue;
+	text-decoration:none;
+}
+a:hover.c1{
+	color:green;
+	text-decoration:underline;
+
+}
+a:link.c2, a:visited.c2{
+	color:red;
+	text-decoration:underline;
+}
+a:hover.c2{
+	color:blue;
+	text-decoration:line-through;
+}
+a:link.c3, a:visited.c3{
+	color:black;
+	text-decoration:none;
+}
+a:hover.c3{
+	color: red;
+	text-decoration: overline;
+}

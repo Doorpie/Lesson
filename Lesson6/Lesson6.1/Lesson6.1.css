@@ -1,0 +1,32 @@
+/* 1.Сделайте селектор, который выберет все ссылки из id=test, с состояния link и visited сделайте неподчеркнутыми и красными, а состояние hover - подчеркнутым и голубым.*/
+#test a:link, #test a:visited{
+	color: red;
+	text-decoration: none;
+}
+#test a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+/* 2.Сделайте селектор, который выберет все ссылки с классом www, состояния link и visited сделайте подчеркнутыми и голубыми, а состояние hover - неподчеркнутым.*/
+a:link.www,  a:visited.www{
+	color:blue;
+	text-decoration: underline;
+}
+a:hover.www{
+	text-decoration: none;
+	
+}
+/* 3.Сделайте селектор, который выберет все ссылки из id=test с классом www. Цвета состояний выберите самостоятельно*/
+#test a:link.www, #test a:visited.www{
+color: green;
+}
+#test a:hover.www{
+	color: red;
+}
+/*4.Сделайте селектор, который выберет все ссылки из class=eee с классом www. Цвета состояний выберите самостоятельно*/
+.eee a:link.www, .eee a:visited.www{
+	color:green;
+}
+.eee a:hover.www{
+	text-decoration: none;
+}
