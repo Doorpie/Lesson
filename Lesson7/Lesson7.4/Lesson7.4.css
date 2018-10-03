@@ -1,0 +1,9 @@
+div {
+	width:500px;
+	text-align: justify;
+	font-weight: bold;
+}
+body{
+	
+	background: url("http://code.mu/exercises/css/osnovy-raboty-s-fonom-cherez-css-dlya-novichkov/4/fon1.jpg") repeat-y right top;
+}
