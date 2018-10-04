@@ -1,0 +1,12 @@
+#page{
+width: 600px;
+text-align: justify;
+}
+.imgleft{
+	float: left;
+	margin-right: 20px;
+}
+.imgright{
+	float: right;
+	margin-left: 20px;
+}

@@ -1,0 +1,21 @@
+.a{
+list-style-type: square;
+}
+.b{
+list-style-type: circle;
+}
+.c{
+list-style-type: disc;
+}
+.d{
+	list-style-type: none;
+}
+.e{
+	list-style-image: url(http://code.mu/exercises/css/rabota-s-otstupami-margin-i-padding-so-svojstvom-float-i-so-spiskami-na-css/5/li.gif);
+}
+.f{
+	list-style-type: lower-greek;
+}
+.g{
+	list-style-type: upper-alpha;
+}
