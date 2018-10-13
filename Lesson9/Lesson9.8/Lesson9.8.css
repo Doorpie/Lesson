@@ -1,0 +1,29 @@
+#menu{
+	background-color: #FC9D00;
+	
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0px 13px;
+	padding: 0px;
+}
+#menu li{
+	display: inline-block;
+	
+}
+
+#menu a:link, #menu a:visited{
+	text-decoration: none;
+	display:block;
+	color: white;
+	padding: 0px 13px;
+	text-align: center;
+	font:13px Arial;
+	line-height: 35px;
+
+
+
+}
+#menu a:hover{
+	background-color: #E93301;
+}

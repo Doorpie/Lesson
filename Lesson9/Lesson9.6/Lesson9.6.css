@@ -1,0 +1,23 @@
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+
+}
+#menu a:link, #menu a:visited{
+	text-decoration: none;
+	padding: 5px;
+	font: 13px Arial;
+	color: blue;
+	border: 1px solid black;
+
+}
+
+#menu li{
+	display: inline-block;	
+}
+
+#menu a.hover, #menu a:hover{
+	background-color: black;
+	color: white;
+}

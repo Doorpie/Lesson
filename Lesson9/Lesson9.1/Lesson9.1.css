@@ -1,0 +1,15 @@
+ul{
+	color: blue;
+	margin: 0px;
+	padding: 0px;
+	list-style-position: inside;
+}
+a:link, a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+	color:red;
+}

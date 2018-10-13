@@ -1,0 +1,31 @@
+#menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+
+}
+#menu a:link, #menu a:visited{
+	color: white;
+	text-decoration: none;
+	background: #0081E7;
+	border: 1px solid #0081E7;
+	display: block;
+	padding: 5px;
+	font: 13px Arial;
+	line-height:20px;
+	font-weight: bold;
+
+}
+#menu a:hover, #menu a.menu2{
+	background: white;
+	color: blue;
+	font-weight: bold;
+	background-image: url("http://code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/images/blue.png");
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+#menu li{
+margin-bottom: 5px;
+}
+
