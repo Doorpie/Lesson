@@ -1,0 +1,27 @@
+div{
+	width: 658px;
+	border: 1px solid #707070;
+	padding: 20px;
+	margin:auto;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+p{
+	margin: 10px 0px;
+}
+h1{
+	font-size: 24px;
+	margin: 0px;
+}
+a:link, a:visited{
+text-decoration:none;
+color: blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+.link-more{
+text-align: right;
+margin-right: 20px;
+}
+

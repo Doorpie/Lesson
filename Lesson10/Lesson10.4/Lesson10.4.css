@@ -1,0 +1,46 @@
+#wrapper{
+	width: 700px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+#menu{
+	background-color: #484848;
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu li{
+	display: inline-block;
+}
+#menu a:link, #menu a:visited{
+	color: white;
+	background-color: #484848;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+	font:bold 13px Arial;
+}
+#menu a:hover{
+	background-color: white;
+	color: black;
+}
+#content h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#content p{
+	margin:5px 10px;
+	font: 17px/20px 'Time New Roman';
+	text-align: justify;
+}
+#content a:link, #content a:visited{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+#content a:hover{
+	text-decoration: underline;
+	color: green;
+}

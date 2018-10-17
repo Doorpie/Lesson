@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 733px;
+	margin: 10px auto;
+}
+
+#content{
+	border:2px dashed green;
+	border-radius: 15px;
+	color: green;
+}
+
+#content h1, h2{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#content p{
+	margin:15px;
+	text-align: right;
+	font: 15px/20px Arial;
+}
+
+#content a:link.content-tittle-link, #content a:visited.content-tittle-link {
+	color:green;
+}
+
+#content a:hover.content-tittle-link-hover{
+	color: black;
+	text-decoration: none;
+}
+
+#content a:link, #content a:visited {
+	color:green;
+	font-weight: bold;
+}
+
+#content a:hover {
+	text-decoration: none;
+}
+
+
