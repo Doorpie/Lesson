@@ -1,0 +1,22 @@
+body{
+	margin: 0px;
+}
+
+#wrapper{
+	width: 69.2%;
+	margin: 8px auto;
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+#wrapper div{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 30px;
+	border: 1px solid blue;
+}
+
