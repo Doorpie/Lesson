@@ -1,0 +1,23 @@
+#square-1{
+	width: 500px;
+	height: 400px;
+	background-color: #4DEE99;
+	margin: auto;
+	position: relative;
+}
+#square-2{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+#square-3{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 250px;
+	left: 350px;
+}

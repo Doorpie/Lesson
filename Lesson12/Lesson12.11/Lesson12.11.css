@@ -1,0 +1,42 @@
+#content{
+	width: 500px;
+	height: 500px;
+	background-color: #4DEE99;
+	border-radius: 100%;
+	margin: auto;
+	position: relative;
+}
+#elm-1{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+}
+#elm-2{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	left: 300px;
+}
+#elm-3{
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	top: 200px;
+	left: 215px;
+}
+#elm-4{
+	width: 200px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	top: 350px;
+	left: 150px;
+}

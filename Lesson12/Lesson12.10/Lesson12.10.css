@@ -1,0 +1,37 @@
+#content{
+	width: 200px;
+	height: 430px;
+	border: 1px solid;
+	margin: auto;
+	position: relative;
+}
+#elm-1{
+	width: 100px;
+	height: 100px;
+	border:1px solid;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+#elm-2{
+	width: 100px;
+	height: 100px;
+	border:1px solid;
+	border-radius: 100%;
+	background-color:yellow;
+	position: absolute;
+	top: 160px;
+	left: 50px;
+}
+#elm-3{
+	width: 100px;
+	height: 100px;
+	border:1px solid;
+	border-radius: 100%;
+	background-color: green;
+	position: absolute;
+	top: 270px;
+	left: 50px;
+}
