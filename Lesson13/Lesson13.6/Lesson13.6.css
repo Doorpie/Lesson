@@ -1,0 +1,44 @@
+#wrapper{
+	width:1000px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+header, main, footer, aside{
+	display: block;
+}
+
+header{
+	height: 200px;	
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+
+footer{
+	height: 200px;	
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.sidebar-left{
+	width: 200px;
+	height: 502px;
+	float: left;
+	outline: 1px solid black;
+}
+.sidebar-right{
+	width: 200px;
+	height: 502px;
+	float: right;
+	outline: 1px solid black;
+}
+
+
+main{
+	height: 502px;
+	outline: 1px solid black;
+	margin: 0px 220px;
+}
+.clearfix{
+	clear: both;
+}

@@ -1,0 +1,17 @@
+#wrapper{
+	width:900px;
+	margin: auto;
+}
+
+header, main, footer{
+	display: block;
+	border: 1px solid black;
+}
+
+header, footer{
+	height: 200px;	
+}
+
+main{
+	height: 400px;
+}

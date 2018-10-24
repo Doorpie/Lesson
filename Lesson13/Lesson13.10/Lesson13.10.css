@@ -1,0 +1,53 @@
+#wrapper{
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 40px;
+}
+
+header, main{
+	display: block;
+	margin-bottom: 40px;
+}
+footer{
+display: block;	
+}
+
+.sidebar-left{
+	width: 200px;
+	height: 200px;
+	float: left;
+	outline: 1px solid black;
+}
+
+.sidebar-right{
+	width: 200px;
+	height: 200px;
+	float: right;
+	outline: 1px solid black;
+}
+.sidebar-center{
+	height: 200px;
+	margin: 0px 240px;
+	outline: 1px solid black;
+}
+main .sidebar-center{
+	height: 500px;
+	margin: 0px 240px;
+	outline: 1px solid black;
+}
+main .sidebar-left{
+	width: 200px;
+	height: 500px;
+	float: left;
+	outline: 1px solid black;
+}
+main .sidebar-right{
+	width: 200px;
+	height: 500px;
+	float: right;
+	outline: 1px solid black;
+}
+.clearfix{
+	clear: both;
+}
