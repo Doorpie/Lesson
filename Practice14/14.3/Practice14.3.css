@@ -1,0 +1,104 @@
+article, aside, footer, header, nav, section, main {
+	display:block;
+}
+
+body, ul, p, li, h1, h2, h3, h4, h5{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #EBEBEB;
+}
+
+#wrapper{
+	width: 890px;
+	margin: 30px auto;
+	background-color: white;
+}
+
+#page-header{
+	height: 50px;
+	background-color: #F8AA03;
+}
+
+	#page-header ul{
+		display: flex;
+		padding-left: 20px;
+	
+	}
+	#page-header li{
+		list-style-type: none;
+		padding-right: 34px; 
+	
+	}
+
+	#page-header a:link, #page-header a:visited{
+	 	color: white;
+	 	text-decoration: none;
+	 	font:19px/50px 'Times New Roman';
+	}
+
+	#page-header a:hover, .active{
+	 	text-decoration: underline;
+	}
+
+main{
+	display: flex;
+	text-align: justify;
+}
+
+#content{
+ 	width: 600px;
+ 	margin: 20px 0px 20px 20px;
+	}
+
+	#content h1{
+ 	font:bold 21px 'Times New Roman';
+	}
+
+	#content h2{
+ 	font:bold 19px 'Times New Roman';
+ 	margin: 20px 0px 10px 0px;
+	}
+
+	#content p{
+ 	font: 16px 'Times New Roman' ;
+ 	margin: 10px 0px 10px 0px;
+	}
+	
+	#content table{
+		width: 600px;
+		text-align: center;
+	}
+	#content td, th{
+		border: 1px solid black;
+	}
+
+	#content th{
+		background-color: #ebebeb;
+	}
+
+#sidebar{
+	width: 230px;
+	margin: 0px 20px 20px 20px;
+}
+
+	#sidebar h3{
+		font:bold 17px 'Times New Roman';
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	#sidebar p{
+		font: 13px 'Times New Roman';
+		margin: 10px 0px 10px 0px;
+	}
+
+#page-footer{
+	height: 75px;
+	background-color: #F8AA03;
+	font: 13px/75px 'Times New Roman';
+	text-align: center;
+	color: white;
+}

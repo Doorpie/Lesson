@@ -1,0 +1,98 @@
+body, h1, h2, p, ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, nav, main, article, aside, footer{
+	display: block;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+#header{
+	height: 200px;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.header-logo{
+	position: absolute;
+	top:10px;
+	left: 0px;
+}
+	.header-logo img{
+		width: 200px;	
+	}
+
+.header-tittle{
+	position: absolute;
+	top:10px;
+	left: 200px;
+	font: bold 19px times new roman;
+
+}
+
+#header-menu {
+		position: absolute;
+		border: 1px solid black;
+		top: 40px;
+		left: 200px;	
+	}
+
+	#header-menu li{
+		list-style-type: none;
+		float: left;
+	
+	}
+
+	#header-menu a:link, #header-menu a:visited{
+		text-decoration: none;
+		color: blue;
+		padding: 0px 10px;
+		font: 16px/30px 'Times New Roman';
+	}
+
+	#header-menu a:hover, #header-menu a.header-menu-hover{
+		text-decoration: underline;
+		color: red;
+	}
+
+.sidebar-left{
+	float: left;
+	width: 200px;
+}
+
+.sidebar-right{
+	float: right;
+	width: 200px;
+	}
+
+#content{
+	margin: 0px 200px;
+	padding: 0px 10px;
+	border: 1px solid black;
+	text-align: justify;
+}
+
+	#content h1{
+		margin: 0px 10px;
+		font-size: 32px;
+	}
+
+	#content p{
+		margin: 10px;
+	}
+
+#footer{
+	height: 198px;
+	border: 1px solid black;
+}
+	#footer p{
+		text-align: center;
+		font-weight: bold;
+		margin:180px auto 0px auto;
+	}

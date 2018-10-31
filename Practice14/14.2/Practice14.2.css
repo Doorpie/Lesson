@@ -1,0 +1,90 @@
+header, aside, article, main, footer{
+	display: block;
+}
+
+body, p, h1, h2, h3, h4, h5{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 870px;
+	margin: 0px auto;
+}
+
+#page-header{
+	height: 200px;
+	background-image: url(bg.jpg);
+	color: white;
+	position: relative;
+}
+
+.page-title{
+	font:bold 27px 'Times New Roman';
+	position: absolute;
+	top: 30px;
+	left:200px;
+}
+
+.page-subtitle{
+	font: bold 13px 'Times New Roman';
+	position: absolute;
+	top: 60px;
+	left:230px;
+}
+main{
+	text-align: justify;
+	margin: 10px 0px;
+}
+
+#sidebar{
+	width: 190px;
+	float: left;
+	font: 13px 'Times New Roman';
+	padding: 10px;
+}
+	#sidebar p{
+	margin-bottom: 10px;
+	}
+
+	#sidebar h4{
+	font: bold 16px 'Times New Roman';
+	text-align: left;
+	}
+
+	#sidebar img{
+		width: 190px;
+		margin-bottom: 20px;
+	}
+
+#content{
+	width: 630px;
+	float: left;
+	padding: 10px;
+}
+
+	#content h1{
+	font: bold 21px 'Times New Roman';
+	}
+
+	#content h2{
+	font: bold 19px 'Times New Roman';
+	margin: 20px 0px 10px 0px;
+	}
+
+	#content p{
+	font:16px 'Times New Roman';
+	margin: 10px 0px;
+	}
+
+#page-footer{
+	font: 12px 'Times New Roman';
+	margin-left: 200px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.clearfix{
+	clear: both;
+}
