@@ -1,0 +1,169 @@
+@import url(reset.css);
+
+body{
+	background-color: #B17E4F;
+	font: 13px "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+ a:link,  a:visited{
+	text-decoration: none;
+    color: #A6BA5B;
+	font: 13px "Trebuchet MS";
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0px auto;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	background-color: #ffffff;
+}
+
+/*Header*/
+
+#header-box{
+	display: flex;
+	background-color: #B17E4F;
+}
+
+	#header-title a{
+		display: block;
+		padding: 60px 0px 11px 30px;
+		text-decoration: none;
+		color:white;
+		font:bold 44px 'Trebuchet MS';	
+		letter-spacing: -1px;
+	}
+
+#sub-title{
+	color: #CEB6A4;
+	padding: 80px 0px 0 234px; 
+	font-size:16px;	
+}
+
+/*-Header*/
+/*menu*/
+
+#menu{
+	margin: 15px 16.5px;
+}
+
+	#menu ul{
+		display: flex;
+		text-align: center;
+		background-color:black;
+	}
+	
+#menu li{
+		flex:1;
+	}
+
+	#menu a:link, #menu a:visited{
+	display: block;
+	padding: 17.5px 0px;
+	color:white;
+	line-height: 20px;
+	
+	}
+
+ 	#menu a:hover, .active{
+     	background-color: #1B3039;
+ 	}
+
+/*-menu*/
+/*main*/
+
+ #top-img{
+ 	padding: 0px 16px;
+ }
+
+ #content{
+ 	float: left;
+ 	width: 600px;
+ 	padding: 0px 16px;
+ 	text-align: left;
+ }
+
+  #content article{
+ 	padding: 0px 15px;
+ 	color: #444444;
+ }
+
+  #content h1{
+ 	font:bold 39px 'Trebuchet MS';
+ 	letter-spacing: -1px;
+ 	color: #9F6841;
+ }
+
+   #content article p{
+ 	margin: 30px 0;
+ 	line-height: 2;
+ }
+
+ 	#content article header p{
+ 	margin: 0px;
+ }
+
+
+#sidebar{
+	float: right;
+	width: 300px;
+	padding: 10px 16px 10px 10px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#sidebar article{
+	background-color: #EFEDE5;
+	padding: 7px 7px 20px 7px;
+	margin: 10px 0 20px 0;
+	border: 1px solid #E8E6DE;
+}
+
+#sidebat ul hr{
+	color: #E8E6DE;
+	margin:2px;
+}
+
+#sidebar header{
+	background-color: #5D9EBD;
+	border: 1px solid #5692AE;
+	padding-left: 15px;
+	
+}
+
+#sidebar header h1{
+	color: #fff;
+	font:bold 19.5px/39px 'Trebuchet MS';
+	}
+
+
+#sidebar ul{
+	padding-top: 13px;
+	}
+
+	#sidebar li{
+		border-bottom: 1px solid #E8E6DE;
+		padding-left: 15px;
+		line-height: 32px;
+	}
+
+	#sidebar p{
+		padding: 20px 15px 7px 15px;
+		line-height: 26px;
+		color: #444444;
+	}
+
+	#footer-box{
+		margin: 40px 15px 25px 15px;
+		background-color: #fff;
+		text-align: center;	
+	}
+
+	#footer-box p{
+		background-color: #D1E4A7;
+		text-align: center;
+		line-height: 75px;
+	}

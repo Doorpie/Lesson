@@ -1,0 +1,170 @@
+@import url(reset.css);
+
+body{
+	background-color: #EBEBEB;
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+a:link, a:visited{
+	text-decoration: underline;
+	color: #F0A003;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 40px auto;
+	background-color: #fff;
+}
+
+/*header*/
+
+#header-box{
+	display: flex;
+}
+
+#header-left{
+	padding: 29px 30px;
+}
+
+	#header-left a{
+		font:54px 'Georgia';
+		letter-spacing: -3px;
+		text-decoration: none;
+		color: #000;
+	}
+
+#header-right{
+	padding: 49px 0px 48px 324px;
+	    font: 20px Georgia, Times, serif;
+    letter-spacing: -1px;
+    color: #999999;
+}
+
+/*menu*/
+
+#menu{
+	background-color: #EA9B23;
+	height: 84px;
+	padding-left: 30px;
+	margin-bottom: 60px;
+}
+
+	#menu ul{
+		display: flex;
+	}
+
+	#menu ul li{
+	flex: 1;
+	font-size: 17px;
+    line-height: 76px;
+	}
+
+	#menu a:link, #menu a:visited{
+		display: block;
+		text-decoration: none;
+		color: #F7DAAF;
+		padding: 0 40px;
+	}
+
+	#menu a:hover, .active{
+		color: #F9E6C8;
+	}
+
+	/*main*/
+
+#sidebar{
+	float: left;
+	padding: 60px 30px;
+	width: 270px;
+}
+
+	#sidebar h1{
+	    font: normal 24.5px 'Georgia';
+	    letter-spacing: -1px;
+	    color: #000;
+	}
+
+	#sidebar article{
+	 	margin-bottom: 52px;
+	}
+
+	#sidebar header{
+	 	padding-bottom: 10px;
+	}
+
+	#sidebar article p{
+		margin-top: 4px;
+	 	line-height: 28px;
+	}
+
+	#sidebar ul{
+	  	list-style-position: inside;
+	  	padding: 4px 0px;
+	}
+
+	#sidebar li{
+	padding-left: 16px;
+    line-height: 42px;
+    background: url(images/li.gif) no-repeat 0;
+    border-bottom: 1px solid #E9E9E9;
+	}
+
+#content{
+	float: right;
+	width: 570px;
+	padding: 60px 30px 7px 30px;
+	text-align: justify;
+}
+
+	#content article{
+		margin-bottom: 73px;
+	}
+
+	#content header h1 a{
+		font:42px 'Georgia';
+		letter-spacing: -2px;
+		text-decoration: none;
+		color: #000;
+	}
+
+	#content header p{
+		margin:11px 0px 31px 0px;
+		line-height: 28px;
+	}
+
+	#content p{
+		margin:21px 0px;
+		line-height: 28px;
+	}
+
+	.more{
+		text-align: right;
+		padding: 6px 28px 0px 0px;
+	}
+
+	.more a{
+		text-decoration: none;
+		padding: 5px 10px;
+    	border: 1px solid #E9E9E9;
+	}
+
+	.more a:hover{
+		background-color: #FCF3E6;; 
+	}
+	
+	.clearfix{
+		clear: both;
+	}
+
+	/*footer*/
+
+	#footer-box{
+		border-top: 1px solid #EBEBEB;
+		text-align: center;
+		padding: 45.5px 0px;
+	}
