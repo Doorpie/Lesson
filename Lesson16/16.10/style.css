@@ -1,0 +1,10 @@
+body{
+	background: url(fon1.jpg) repeat-y top left, url(fon2.jpg) repeat-y top right;
+
+}
+
+
+div{
+	padding: 8px 0px;
+	text-align: center;
+}

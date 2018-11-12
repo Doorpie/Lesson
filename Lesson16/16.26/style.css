@@ -1,0 +1,42 @@
+div{
+	border: 10px dotted black;
+	margin-bottom: 50px;
+	padding: 30px;
+	width: 300px;
+	height: 300px;
+	font:bold 19px 'Times New Romans';
+	text-align: justify;
+}
+
+.box1{
+	background: url("bg1.jpg") no-repeat;
+	background-clip: padding-box;	
+}
+
+.box2{
+	background: url("bg1.jpg") no-repeat;
+	background-clip: content-box;	
+}
+
+.box3{
+	background: url("bg1.jpg") no-repeat;
+	background-clip: padding-box;	
+}
+
+.box4{
+	background-color: blue;
+	color: white;
+	background-clip: padding-box;	
+}
+
+.box5{
+	background-color: blue;
+	color: white;
+	background-clip: content-box;	
+}
+
+.box6{
+	background-color: blue;
+	color: white;	
+}
+

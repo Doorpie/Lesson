@@ -1,0 +1,9 @@
+#wrapper{
+	width: 90%;
+	margin: 40px auto;
+	text-align: justify;
+}
+
+#wrapper p{
+	column-count: 4;
+}

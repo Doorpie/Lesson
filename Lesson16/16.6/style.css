@@ -1,0 +1,32 @@
+div{
+	margin: 8px 0px 50px 0px;
+	font-size: 40px;
+}
+
+.box1{
+	text-shadow: 20px 30px #959595;
+}
+
+.box2{
+	text-shadow: 20px 30px 4px #959595;
+}
+
+.box3{
+	text-shadow: 10px 10px 4px red, -10px -10px 4px blue;
+}
+
+.box4{
+ 		color: #ddcca3;
+		text-shadow: -1px -1px #666, 1px 1px #FFF;
+}
+
+.box5{
+ 		color: #DDCCA3;
+		/*text-shadow:1px 1px 1px #676767;*/
+	    text-shadow: 1px 1px 3px #666, -1px -1px 3px #FFF, 1px 1px #666, -1px -1px #FFF;
+}
+
+.box6{
+ 		color: #DDCCA3;
+	   	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

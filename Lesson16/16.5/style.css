@@ -1,0 +1,26 @@
+body{
+	margin: 0px;	
+}
+
+#wrapper{
+	height: 568px;
+	background: url(1.jpg) no-repeat -200px -200px;
+	display: flex;
+}
+
+.box1, .box2{
+width: 150px;
+height: 150px;
+margin: 30px 10px 30px 30px;
+padding: 10px;
+color: #fff;
+}
+
+.box1{
+border: 30px solid rgba(255,255,255,.6);
+}
+
+.box2{
+border: 30px solid #fff;
+opacity: .5;
+}

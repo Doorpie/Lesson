@@ -1,0 +1,33 @@
+div{
+	margin: 20px 5px;
+	padding: 5px;
+	border: 1px solid red;
+}
+
+.box1{
+	letter-spacing: 4px;
+}
+
+.box2{
+	letter-spacing: -1px;
+	text-align: justify;
+}
+
+.box3{
+	word-spacing: 10px;
+}
+
+.box4{
+	word-spacing: -7px;
+	text-align: justify;
+}
+
+.box5{
+	font-variant: small-caps;
+	text-align: justify;
+}
+
+.box6{
+	text-transform: uppercase;
+	text-align: justify;
+}

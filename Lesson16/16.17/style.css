@@ -1,0 +1,33 @@
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+.box1{
+	background: linear-gradient(to bottom,#F1DA36, #fff);
+}
+
+.box2{
+	background: linear-gradient(to top, #F1DA36, #fff);
+}
+
+.box3{
+	background: linear-gradient(to right, #F1DA36, #fff);
+}
+
+.box4{
+	background: linear-gradient(to top left, #FF0C0C, #fff);
+}
+.box5{
+	width: 400px;
+	height: 200px;
+	background: linear-gradient(to right, red 0px, blue 200px, white 350px, red);
+}
+
+.box6{
+	width: 600px;
+	height: 300px;
+	background: linear-gradient(0deg, red 0px, red 100px, white 100px, white 200px, red 200px, red 300px);
+}

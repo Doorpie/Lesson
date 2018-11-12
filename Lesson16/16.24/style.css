@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Lombardina;
+    src: url(LombardinaInitialOne.ttf);Ñ
+	
+}
+
+#wrapper{
+	width: 70%;
+	margin: 60px auto;
+	text-align: justify;
+	font-family: Lombardina;
+	font-size: 33px;
+}
+
+#wrapper h1{
+	font-size: 66px;
+}

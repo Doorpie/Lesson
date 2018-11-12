@@ -1,0 +1,15 @@
+div{
+	width: 200px;
+	border:1px solid black;
+	margin-bottom: 10px;
+}
+
+.box1{
+	word-break: break-all;
+
+}
+
+.box2{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}

@@ -1,0 +1,25 @@
+div{
+	width: 200px;
+	height: 200px;
+	border:1px solid #000;
+	margin:0px auto 100px auto;
+}
+
+.box1{
+	cursor: pointer;
+}
+.box2{
+	cursor: progress;
+}
+.box3{
+	cursor: wait;
+}
+.box4{
+	cursor: move;
+}
+.box5{
+	cursor: not-allowed
+}
+.box6{
+	cursor: url("http://code.mu/exercises/css/rabota-s-prodvinutymi-svojstvami-css/8/arrow.cur"), auto;
+}

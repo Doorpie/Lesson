@@ -1,0 +1,21 @@
+div{
+margin-bottom: 30px;
+text-decoration-color: red;
+text-decoration-line: underline;
+}
+
+.box1{
+	text-decoration-style: wavy;
+}
+
+.box2{
+	text-decoration-style: dotted;
+}
+
+.box3{
+	text-decoration-style: dashed;
+}
+
+.box4{
+	text-decoration-style: double;
+}

@@ -1,0 +1,12 @@
+#wrapper{
+	width: 70%;
+	margin: 40px auto;
+	text-align: justify;
+}
+
+#wrapper p{
+	column-count: 2;
+	column-gap: 100px;
+	column-rule:1px solid black;
+
+}

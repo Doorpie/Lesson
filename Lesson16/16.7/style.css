@@ -1,0 +1,26 @@
+div{
+	width: 200px;
+	height: 200px;
+	border:1px solid #000;
+	margin:0px auto 100px auto;
+}
+
+.box1{
+	box-shadow: 20px 30px #959595;
+}
+
+.box2{
+	box-shadow: 20px 30px 10px #959595;
+}
+
+.box3{
+	box-shadow: 20px 30px 10px #959595, -20px -30px 10px #959595;
+}
+
+.box4{
+	box-shadow: inset 5px 5px 10px #959595;
+}
+
+.box5{
+	box-shadow: inset -5px -5px 10px red, inset 5px 5px 10px blue;
+}

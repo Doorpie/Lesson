@@ -1,0 +1,35 @@
+div{
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+.box1{
+	width: 400px;
+	height: 100px;
+	background:repeating-linear-gradient(90deg,white, white 5px, black 5px, black 10px);
+}
+.box2{
+	width: 400px;
+	height: 100px;	
+	background:repeating-linear-gradient(0deg, white, white 5px, black 5px, black 10px);
+}
+.box3{
+	width: 400px;
+	height: 100px;	
+	background:repeating-linear-gradient(to top, white, white 5px, black 5px, black 6px);
+}
+.box4{
+	width: 400px;
+	height: 30px;
+	background:repeating-linear-gradient(45deg, white, white 5px, red 5px, red 8px);
+}
+.box5{
+	width: 400px;
+	height: 400px;
+	background:repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+}
+.box6{
+	width: 400px;
+	height: 100px;
+	background:repeating-linear-gradient(-45deg, white, white 5px, black 5px, black 6px), repeating-linear-gradient(45deg, white, white 5px, black 5px, black 6px);
+}
