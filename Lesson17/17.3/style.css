@@ -1,0 +1,9 @@
+label{
+	border: 1px solid red;
+}
+
+#box2{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	padding: 10px;
+}

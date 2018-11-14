@@ -1,0 +1,25 @@
+textarea{
+	width: 200px;
+	height: 100px;
+	margin-bottom: 32px;
+}
+
+#box1{
+	resize: both;
+	max-width: 400px;
+	max-height: 300px;
+	min-width: 200px;
+	min-height: 100px;
+}
+
+#box2{
+	resize: none;
+}
+
+#box3{
+	resize: horizontal;
+}
+
+#box4{
+	resize: vertical;
+}
