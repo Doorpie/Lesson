@@ -1,0 +1,16 @@
+#wrapper{
+	margin: 0px auto;
+	padding:10px;
+	width: 70%;
+	text-align: justify;
+}
+
+#wrapper h1{
+	margin-top: 0px;
+}
+
+#wrapper p::first-letter{
+	color: red;
+	font-style: italic;
+	font-size: 27px;
+}

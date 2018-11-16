@@ -1,0 +1,18 @@
+input{
+	width: 200px;
+	outline: none;
+}
+#text1:focus{
+	color: green;
+	font-weight: bold;
+}
+#text2:focus{
+	box-shadow: 0px 0px 3px #FF8000;
+	border: 1px solid #FF8306;
+	color: #FF8306;
+}
+
+#text3:focus{
+	width: 400px;
+	box-shadow: 0px 0px 3px #969696;
+}

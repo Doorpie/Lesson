@@ -1,0 +1,15 @@
+p{
+	margin: 0px;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+p:target{
+	color: green;
+}
