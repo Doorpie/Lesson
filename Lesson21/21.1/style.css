@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px){
+	#wrapper{
+		color: red;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+	#wrapper{
+		color: green;
+	}
+}
+
+@media screen and (min-width: 800px){
+	#wrapper{
+		color: blue;
+	}
+}
+

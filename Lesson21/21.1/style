@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px){
+	#wrapper{
+		color: blue;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#wrapper{
+		color: green;
+	}
+}

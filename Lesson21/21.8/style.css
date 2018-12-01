@@ -1,0 +1,75 @@
+body{
+	overflow-y: scroll;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 36px auto;
+}
+
+header{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 5px;n
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+
+.box{
+	border: 1px solid green;
+	padding: 20px;
+	box-sizing: border-box;
+	font: 14px/1.7 'Arial';
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.box img{
+	width: 90%;
+    display: block;
+    margin: 0 auto;
+    max-width: 354px;
+}
+
+
+@media screen and (min-width: 800px) {
+	
+	html{
+		font-size: 20px;
+	}	 
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+	
+	html{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	html{
+		font-size: 10px;
+	}
+	
+}
+
+@media screen and (min-width: 900px) {
+
+	.box{
+		width: 32%;
+		margin-right: 2%;
+	}
+
+	.box:nth-child(3n){
+		margin-right: 0;
+	}
+	
+}
