@@ -1,0 +1,18 @@
+#wrapper div{
+	width: 30%;
+	height: 50px;
+	border: 1px solid red;
+	margin-bottom: 20px;	
+}
+
+.box1{
+	transition: width 3s steps(5, start)
+}
+
+.box2{
+	transition: width 3s steps(5, end)
+}
+
+#wrapper:hover div{
+	width: 100%;
+}

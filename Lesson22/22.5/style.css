@@ -1,0 +1,12 @@
+#box{
+	border: 1px solid red;
+	width: 30%;
+	height: 50px;
+	transition: all 1s;
+}
+
+#box:hover{
+	width: 70%;
+	margin-left: 10%;
+	
+}

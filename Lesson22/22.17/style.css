@@ -1,0 +1,17 @@
+#wrapper{
+	width: 50%;
+	height: 30px;
+	margin: 0 auto;
+	border: 1px solid red;
+	
+}
+.box{
+	width: 0%;
+	height: 30px;
+	background: red;
+	transition: all 4s steps(5, start);
+}
+
+#wrapper:hover div{
+	width: 100%;
+}

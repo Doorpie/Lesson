@@ -1,0 +1,10 @@
+#wrapper div{
+	width: 30%;
+	height: 50px;
+	border: 1px solid red;
+	transition: width 3s cubic-bezier(.20,-0.4,0,.81);	
+}
+
+#wrapper:hover div{
+	width: 100%;
+}

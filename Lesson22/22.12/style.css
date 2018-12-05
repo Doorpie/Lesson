@@ -1,0 +1,13 @@
+
+#wrapper div{
+	width: 30%;
+	height: 30px;
+	border: 1px solid red;
+	margin: 0 0 20px 20px;
+	transition: all 1s ease;
+}
+
+
+#wrapper div:hover +div+div{
+	width: 70%;
+}

@@ -1,0 +1,12 @@
+#box{
+	border: 1px solid red;
+	width: 30%;
+	height: 100px;
+	color: red;
+	transition: all 1s;
+}
+
+#box:hover{
+	background: red;
+	color: white;
+}

@@ -1,0 +1,14 @@
+#box{
+	border: 1px solid red;
+	width: 30%;
+	height: 50px;
+	transition: all 1s;
+	text-indent: 2000px; 
+	white-space: nowrap;
+	text-align: center;
+	line-height: 50px;
+}
+
+#box:hover{
+   text-indent: 0;
+}
