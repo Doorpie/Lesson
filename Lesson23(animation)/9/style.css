@@ -1,0 +1,21 @@
+@keyframes anim{
+	from   { width: 0%;}
+	to     { width: 100%;}
+}
+
+#wrapper{
+	width: 50%;
+	height: 30px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.box{
+	width: 0%;
+	height: 30px;
+	background: red;
+}
+
+.box{
+	animation: anim 5s linear forwards;
+}

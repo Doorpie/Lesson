@@ -1,0 +1,66 @@
+@keyframes anim{
+	0%{
+		animation-timing-function: ease-in;
+	}
+
+	40%{
+		
+		margin-top: 200px;
+		animation-timing-function: ease-out;
+	}
+
+	50%{
+		
+		margin-top: 150px;
+		animation-timing-function: ease-in;
+	}
+
+	70%{
+		
+		margin-top: 200px;
+		animation-timing-function: ease-out;
+	}
+
+	80%{
+		
+		margin-top: 175px;
+		animation-timing-function: ease-in;
+	}
+
+	90%{
+		
+		margin-top: 200px;
+		animation-timing-function: ease-out;
+	}
+
+	95%{
+		
+		margin-top: 190px;
+		animation-timing-function: ease-in;
+	}
+
+	100%{
+		margin-left: 110px; 
+		margin-top: 200px;
+		animation-timing-function: ease-out;
+	}
+}
+
+body{
+	margin: 0;
+}
+
+#box{
+	width: 220px;
+	height: 220px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.circle{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: red;
+	animation: anim 5s infinite;
+}

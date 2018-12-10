@@ -1,0 +1,18 @@
+@keyframes anim{
+	from {
+		background: white;
+	}
+	to{
+		background: red;
+	}
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+
+div{
+	animation: anim 4s 30;
+}
