@@ -1,0 +1,6 @@
+div{
+	width: 300px;
+	margin: 30px auto;
+	transform: skew(5deg);
+	text-align: justify;
+}

@@ -1,0 +1,32 @@
+#wrapper ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	transform: rotate(-7deg);
+	transform-origin: top right;
+}
+
+#wrapper li{
+	list-style-type: none;
+	border: 1px solid blue;
+	margin-right: 4px;
+	padding: 0 10px;
+	transition: 1s ease;
+
+}
+
+#wrapper a:link, #wrapper a:visited{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	color: blue;
+}
+
+#wrapper a:hover{
+	color: blue;
+}
+
+#wrapper li:hover{
+
+	transform: rotate(-375deg) scale(1.1);
+}

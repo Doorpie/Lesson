@@ -1,0 +1,26 @@
+div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin: 50px auto;
+}
+
+#box1:hover{
+	transform: rotate(30deg);
+}
+
+#box2:hover{
+	transform: scale(2, 2);
+}
+
+#box3:hover{
+	transform: skewX(45deg);
+}
+
+#box4:hover{
+	transform: translateX(20px);
+}
+
+#box5:hover{
+	transform: translate(-10px, -10px);
+}
