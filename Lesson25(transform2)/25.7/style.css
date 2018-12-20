@@ -1,0 +1,41 @@
+@keyframes anim{
+	0%{transform: rotateY(0deg) rotateX(0);}
+	100%{transform: rotateY(360deg) rotateX(0);}
+}
+
+#wrapper {
+ 	width: 300px;
+ 	height: 200px;
+ 	margin:  100px auto;
+ 	position: relative;
+ 	animation: anim 16s infinite linear;
+ 	transform-origin: left;
+ 	transform-style: preserve-3d;
+}
+
+#wrapper > div { 
+	width: 200px;
+	height: 300px;
+	border: 1px solid black;
+  	text-align: center;
+  	color: #fff;
+  	font: 27px/300px 'Times New Romans';
+  	position: absolute;
+}
+
+.box1 {
+  transform: translateZ(300px);
+  background-color: #8e3a09;
+}
+.box2 {
+  background-color: #6d2176;
+  transform: translateZ(-300px) rotateY(180deg);
+}
+.box3 {
+  transform: translateX(300px) rotateY(90deg);
+  background-color: #b58224;
+}
+.box4 {
+  transform: translateX(-300px) rotateY(-90deg);
+  background-color: #83890e;
+}
